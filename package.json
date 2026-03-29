@@ -1,0 +1,42 @@
+{
+  "name": "bookgenerator-ai",
+  "version": "1.0.0",
+  "description": "BookGenerator.ai - Web-App for creating publishable books from ideas",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "14.0.4",
+    "zod": "^3.22.4",
+    "zustand": "^4.4.1",
+    "dexie": "^3.2.4",
+    "docx": "^8.5.0",
+    "framer-motion": "^10.16.4",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.2.0",
+    "class-variance-authority": "^0.7.0",
+    "@anthropic-ai/sdk": "^0.21.0",
+    "react-hook-form": "^7.48.0",
+    "@hookform/resolvers": "^3.3.4",
+    "lucide-react": "^0.303.0",
+    "jspdf": "^2.5.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.0.0"
+  }
+}
